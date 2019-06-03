@@ -1,0 +1,116 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 379px;
+	height: auto;
+	float: left;
+    border-top: 1px solid #eee;
+    padding-left: 20px;
+}
+
+/****** HEADER ******/
+
+
+header h1 {
+    float: left;
+    padding: 10px;
+}
+    
+header nav {
+    font-size: 14px;
+    color: rgb(119, 164, 102);
+    font-weight: bold;
+    float: right;
+    margin-top: 25px;
+	padding: 10px;
+    }
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+      
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #77a466;
+}
+
+/****** ABOUT SECTION ******/
+
+img {
+    max-width: 100%;
+	height: auto;
+	border: 3px solid #77a466;
+}
+
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+    color: #77a466;
+    clear: both;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/****** MAIN ******/
+
+main {
+    border-bottom: 1px solid #eee;
+}
+
+#todays-specials a {
+    text-decoration: none;
+    color:#77a466;
+}
+
+#todays-specials li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+#reviews {
+	border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    line-height: 1.5;
+}
+
+#contact {
+    line-height: 2;
+}
+
+/****** FOOTER ******/
+
+footer {
+	height: 50px;
+	border-top: 1px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer h2 {
+    clear: left; 
+    text-align: center;
+}
+      
